@@ -1,0 +1,129 @@
+/* 登录页面 */
+
+#login {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  min-width: 1200px;
+  .img-wrap {
+    width: 1920px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .login_box {
+    position: absolute;
+    right: 20%;
+    top: 0%;
+    width: 22%;
+    padding-top: 3%;
+    h2 {
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 40px;
+    }
+    .login_from {
+      background: #fff;
+      opacity: 0.9;
+      height: auto;
+      padding: 8%;
+      .accountLogin {
+        display: block;
+        h1 {
+          color: rgb(4, 4, 4);
+          font-weight: normal;
+          text-align: center;
+          font-family: 微软雅黑;
+          font-size: 18px;
+          b {
+            color: #c6c5c3;
+            font-size: 12px;
+          }
+        }
+        .codeLoginText {
+          width: 100%;
+          height: 32px;
+          clear: both;
+          padding-top: 10%;
+          a {
+            background-position: 0px -143px;
+            height: 30px;
+            line-height: 30px;
+            float: right;
+            padding-left: 10px;
+            color: #767270;
+            i {
+              width: 20px;
+              height: 25px;
+              font-size: 14px;
+              margin-right: 2px;
+              color: #d8000b;
+              font-weight: 900;
+            }
+          }
+          a:hover {
+            color: red;
+          }
+        }
+        .item {
+          height: auto;
+          overflow: hidden;
+          position: relative;
+          input {
+            padding-left: 10%;
+            font-family: 微软雅黑;
+            font-weight: normal;
+          }
+        }
+        .automatic {
+          clear: both;
+          height: 30px;
+          line-height: 30px;
+          font-size: 13px;
+          a:hover {
+            color: red;
+          }
+        }
+        .login_btn {
+          width: 100%;
+          height: 50px;
+          line-height: 50px;
+          padding-top: 15px;
+          button {
+            width: 100%;
+            height: 45px;
+            line-height: 45px;
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+            font-family: 微软雅黑;
+            letter-spacing: 5px;
+            padding-left: 5px;
+            cursor: pointer;
+            background: rgb(216, 0, 11);
+            border-width: 0px;
+            border-style: initial;
+            border-color: initial;
+            border-image: initial;
+          }
+        }
+        .err {
+          height: auto;
+          color: #d8000b;
+          line-height: 30px;
+          text-align: center;
+          padding-top: 25%;
+        }
+      }
+      .notAccount {
+        text-align: right;
+        a {
+          color: #ed000c;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

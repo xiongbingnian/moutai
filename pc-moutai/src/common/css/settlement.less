@@ -1,0 +1,236 @@
+/* 结算页 */
+
+.cart_bg {
+  background: #f7f7f7;
+  .cart {
+    width: 1200px;
+    margin: 0px auto;
+    height: auto;
+    overflow: hidden;
+    .title {
+      margin-top: 25px;
+      h2 {
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 2px solid #e1e1e1;
+        p {
+          border-bottom: 2px solid #000;
+          width: 120px;
+        }
+      }
+    }
+    .cart_title {
+      height: 50px;
+      background: #000;
+      margin-top: 40px;
+      border-left: 3px solid #d8000b;
+      h2 {
+        line-height: 50px;
+        color: #fff;
+        padding-left: 20px;
+        font-weight: normal;
+      }
+    }
+    .receiver {
+      margin-top: 15px;
+      i {
+        height: 43px;
+        line-height: 43px;
+        text-align: center;
+        display: block;
+      }
+      .addres_item {
+        height: 50px;
+        line-height: 50px;
+        background: #fff;
+        padding-left: 20px;
+        color: #666;
+        border-bottom: 1px dashed #e7e7e7;
+        i {
+          cursor: pointer;
+          padding-right: 20px;
+          color: #ed0612;
+        }
+      }
+      .addres_item:last-child {
+        border-bottom: 0px;
+      }
+      .black {
+        color: #000;
+        span {
+          color: #b08a5e;
+        }
+      }
+      .shop_item {
+        background: #fff;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        padding: 30px 0;
+        .Distribution {
+          width: 260px;
+          border-right: 1px dashed #d8d8d8;
+          margin-top: 0;
+          font-weight: normal;
+          /* height: 200px; */
+          h3 {
+            margin-top: 0px;
+          }
+          span {
+            cursor: pointer;
+            display: block;
+            height: 43px;
+            line-height: 43px;
+            background: #fff;
+            margin: 0 20px 20px;
+            text-align: center;
+            font-size: 14px;
+            border: 1px solid #dc1721;
+            position: relative;
+          }
+        }
+        .right {
+          width: 930px;
+        }
+        .shop_list {
+          border: 1px solid #d8d8d8;
+          height: auto;
+          overflow: hidden;
+          margin: 20px;
+          .img {
+            text-align: center;
+            padding: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            height: auto;
+            border-right: 1px solid #d8d8d8;
+          }
+          .right {
+            width: auto;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid #d8d8d8;
+            float: none;
+            margin-left: 200px;
+            .shop_list_title {
+              .left {
+                border-right: 1px solid #d8d8d8;
+              }
+              .left:last-child {
+                border-right: 0px;
+              }
+            }
+            .shop_content {
+              text-align: left;
+              padding: 20px;
+            }
+          }
+        }
+      }
+      h3 {
+        height: 43px;
+        line-height: 43px;
+        background: #d0b99e;
+        margin: 0 20px 20px;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+      }
+    }
+    .receiver .receiver-edit,
+    .receiver .receiver-add,
+    .receiver .receiver-delete {
+      cursor: pointer;
+    }
+    h2.title {
+      height: 45px;
+      line-height: 45px;
+      color: rgb(27, 27, 27);
+      font-weight: normal;
+      font-family: 微软雅黑;
+      font-size: 18px;
+      padding-left: 20px;
+      border-bottom: 1px solid rgb(216, 216, 216);
+      background: rgb(239, 239, 239);
+    }
+    h2 {
+      span {
+        font-size: 13px;
+        padding-right: 20px;
+      }
+    }
+    .textarea_item {
+      background: #fff;
+      span {
+        text-align: right;
+      }
+    }
+    .textarea {
+      padding: 20px;
+      padding-bottom: 0px;
+      .box {
+        height: 60px;
+        line-height: 30px;
+        border: 1px solid #d8d8d8;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+    }
+  }
+  .contract {
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    span {
+      color: #b46f1e;
+    }
+    a {
+      background: #000;
+      padding: 6px 12px;
+      margin-left: 5px;
+      color: #fff;
+    }
+  }
+  .total_list {
+    background: #fff;
+    text-align: right;
+    padding: 10px;
+    line-height: 35px;
+    i {
+      font-style: normal;
+    }
+    span {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .total_Freight {
+      display: block;
+      line-height: 35px;
+      border-bottom: 1px dashed #d8d8d8;
+    }
+    .totals {
+      padding-top: 10px;
+    }
+    p {
+      padding-bottom: 10px;
+    }
+  }
+  .Orders {
+    height: 50px;
+    line-height: 50px;
+    background: #ccb69b;
+    width: 100%;
+    margin-bottom: 55px;
+    span {
+      width: 180px;
+      background: #d8000b;
+      color: #fff;
+      text-align: center;
+      float: right;
+      cursor: pointer;
+      font-size: 22px;
+    }
+  }
+}

@@ -1,0 +1,145 @@
+/* 咨询天地 */
+
+#information {
+  .article {
+    background: #e8e8e8;
+  }
+  .information {
+    padding-bottom: 50px;
+    .meun {
+      width: 1000px;
+      height: auto;
+      margin: 0 auto;
+      padding: 40px 0;
+      ul {
+        li {
+          margin: 10px 0;
+          list-style: none;
+          width: 300px;
+          height: 50px;
+          float: none;
+          line-height: 50px;
+          text-align: center;
+          margin-left: 20px;
+          display: inline-block;
+          a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            border: 1px solid #d5d5d5;
+            font-size: 14px;
+          }
+        }
+        li:hover a {
+          background: #d8000b;
+          border: 1px solid #d8000b;
+          color: #fff;
+        }
+        li.active a{
+          background: #d8000b;
+          border: 1px solid #d8000b;
+          color: #fff;
+        }
+      }
+    }
+    .articleList {
+      width: 100%;
+      width: 90%;
+      margin: 0 auto;
+      height: 100%;
+      overflow: hidden;
+      padding-top: 10px;
+      ul {
+        li:hover {
+          box-shadow: none;
+          -webkit-box-shadow: none;
+          margin-left: 2.4%;
+          margin-bottom: 2.4%;
+          margin-top: 0;
+        }
+        li {
+          transition: box-shadow 500ms;
+          -webkit-transition: box-shadow 500ms;
+          width: 20%;
+          float: left;
+          height: auto;
+          overflow: hidden;
+          display: block;
+          background: #fff;
+          margin-left: 2.4%;
+          padding: 1%;
+          margin-bottom: 2.4%;
+          a:hover {
+            box-shadow: 1px 5px 12px rgba(0, 0, 0, .2);
+            -webkit-box-shadow: 1px 5px 12px rgba(0, 0, 0, .2);
+            margin-top: -5px;
+            margin-bottom: 5px;
+          }
+        }
+        li {
+          width: 22%;
+          padding: 0;
+          overflow: visible;
+          background: transparent;
+          a {
+            display: block;
+            padding: 10px;
+            transition: all .3s;
+            -webkit-transition: all .3s;
+            box-shadow: 1px 2px 5px rgba(0, 0, 0, .05);
+            -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, .05);
+            background: #fff;
+          }
+          b {
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+            display: block;
+          }
+          h2 {
+            height: 40px;
+            line-height: 40px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            border-bottom: 1px solid #ddd;
+            font-size: 16px;
+            font-weight: 400;
+            color: #000;
+          }
+          p {
+            padding-top: 15px;
+            margin-bottom: 10px;
+            font-size: 13px;
+            line-height: 24px;
+            color: #666;
+            height: 68px;
+            overflow: hidden;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            padding-top: 20px;
+            margin-bottom: 30px;
+            line-height: 25px;
+            color: #666;
+            height: 68px;
+            overflow: hidden;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+          }
+        }
+      }
+    }
+    .more-btn {
+      color: #dc1721;
+      padding-left: 2px;
+      display: inline-block;
+    }
+  }
+}

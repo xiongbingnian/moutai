@@ -1,0 +1,89 @@
+/* 注册页面 */
+
+.registered {
+  background: #e8e8e8;
+  min-width: 1200px;
+  .w1200 {
+    width: 1200px;
+    margin: 0 auto;
+    .welcome {
+      width: 234px;
+      border-bottom: 2px solid #000;
+      padding-top: 30px;
+      h2 {
+        padding-bottom: 5px;
+        p {
+          font-size: 17px;
+          b {
+            font-size: 18px;
+            color: #000000;
+          }
+          span {
+            font-size: 12px;
+            color: #888888;
+            a {
+              color: #d8000b;
+            }
+          }
+        }
+      }
+    }
+    .register {
+      margin-bottom: 50px !important;
+      h3 {
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+        border-left: 2px solid #a4a4a4;
+        color: #c0c0c0;
+        margin-top: 15px;
+        background: #fff;
+        text-indent: 20px;
+        box-shadow: 0 0 5px #eee;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      h3:hover {
+        border-left: 2px solid #d8000b;
+        color: #000;
+      }
+      /* 个人注册 */
+      .personal_reg {
+        .personal {
+          width: 800px;
+          height: 769px;
+          margin: 0 auto;
+          padding-top: 20px;
+          .gain {
+            height: 40px;
+            background: #000;
+            margin-left: 10px; // line-height: 40px;
+            text-align: center;
+            color: #c5c5c5;
+            font-size: 13px;
+          }
+          .gain:hover {
+            opacity: .73;
+          }
+          .disabled {
+            opacity: .73;
+            cursor: default;
+          }
+          .el-row {
+            label {
+              color: #000;
+            }
+            .el-input {
+              border-radius: 1px !important;
+            }
+            .phone {
+              line-height: 40.5px;
+              padding-left: 20px;
+              color: red;
+            }
+          }
+        }
+      } // 企业注册
+    }
+  }
+}
